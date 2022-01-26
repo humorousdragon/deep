@@ -35,6 +35,6 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          context: deep
+          context: deep/net/
           push: true
           tags: user/app:latest
