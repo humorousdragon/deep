@@ -38,3 +38,7 @@ jobs:
           context: {{defaultContext}}:docker
           push: true
           tags: user/app:latest
+          
+      - name: Run a one-line script
+        run: Echo Hello, world! {{defaultContext}}:docker 
+      
