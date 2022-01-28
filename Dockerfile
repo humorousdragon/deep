@@ -1,4 +1,4 @@
-FROM --platform=linux/arm torizon/debian:2-bullseye
+FROM ubuntu:20.04
  
 RUN apt update 
 RUN apt install nano -y
